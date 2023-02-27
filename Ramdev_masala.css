@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(147, 19, 19);
+}
+.navbar_menu{
+    margin-left:150px;
+}
+.modal-dialog{
+    padding: 0 !important;
+    margin: 150px;
+}
+.modal-content{
+    width: 1000px !important
+}
+@media only screen and (max-width:1200px){
+    .navbar_menu{
+        margin-left:0;  
+    }
+    .modal-dialog{
+        padding: 0 !important;
+        margin: 120px;
+    }
+    .modal-content{
+        width: 800px !important
+    }
+}
+@media only screen and (max-width:990px){
+    .navbar_menu{
+        padding-left: 0;
+        font-size:10px;
+        margin-top: 10px;  
+    }
+    .modal-dialog{
+        padding: 0 !important;
+        margin: 100px;
+    }
+    .modal-content{
+        width: 600px !important
+    }
+}
+.navbar_menu ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+.navbar_menu a{
+    color: white;
+}
+.container span{
+    color: white;
+}
+.container-fluid_1{
+    background-color: black;
+}
+.second_navbar{
+    background-color: rgb(164, 10, 10);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.second_navbar a{
+    color: white;
+    font: weight 900px;;
+}
+.second_navbar ul li a:hover{
+    color: black;
+}
+ .second_navbar ul li{
+    display: inline;
+    margin-right: 20px;
+ } 
+.caliory ul{
+    border: 1px solid rgb(237, 234, 234);
+}
+.caliory ul li{
+    /* padding-top: 5px; */
+    padding-left: 10px;
+    list-style: none;
+}
+.caliory ul li a{
+    color: rgb(79, 77, 77);
+}
+.category{
+    background-color:whitesmoke;
+    padding: 5px;
+     opacity: 0.9;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.hing span{
+    color: rgb(175, 31, 31);
+}
+.card1,.card2{
+    width: 550px;  
+    margin-top: 20px; 
+}
+@media only screen and (max-width:1200px)(min-width:995px){
+    .card1,.card2,.hing_img{
+        width: 450px;   
+    }
+}
+@media only screen and (max-width:995px)(min-width:760px){
+    .card1,.card2,.hing_img{
+        width: 350px;  
+    }
+}
+.hing p{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.main_hing_img,.page_background_color{
+   background-color: rgb(251, 248, 248);
+   margin-top: 10px;
+}
+.coustomer_heading{
+    background-color: transparent;
+    background-image: url(https://ramdevstore.com/wp-content/uploads/2021/05/Untitled-1-1.png?id=5190);
+}
+.spice_store h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.spice_store p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+.spice_store_p span{
+    color: brown;
+     font-weight: 900;
+}
+.chilli_powder,.turmeric_powder{
+    float: left;
+}
+.card3{
+    width:270px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(251, 248, 248);
+}
+.card3 h3,.card4 h3,.card5 h3{
+    margin-left:auto;
+    margin-right: auto;
+     margin-bottom: 7.2px;
+      margin-top: 5px;
+}
+.card3 p,.card4 p,.card5 p{
+    margin-left:auto;
+    margin-right: auto;
+}
+.card3 span,.card4 span,.card5 span{
+    margin-left:auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+.card4,.card5{
+    border: none;
+    background-color: rgb(251, 248, 248);
+}
+.online_store_background{
+    margin-top: 50px;
+    background-image: url(images/backgroundimg.png);
+    padding-bottom: 50px;
+}
+.online_store_discreption h4{
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.online_store_discreption p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Open Sans,sans-serif;
+}
+.online_store_discreption span{
+     color:brown;
+     font-weight: 600;
+}
+.footer_background{
+    background-color: rgb(21, 21, 21);
+}
+.footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer ul li a:hover{
+    color: red;
+}
+.footer_second{
+    background-color: black;
+}
+.footer_second ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin: 10px;
+}
+.footer_second small{
+    color: whitesmoke;
+}
+.last_footer{
+    padding:20px 0;
+}
+
+
+
+
+

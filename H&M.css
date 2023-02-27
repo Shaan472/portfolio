@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.second_main{
+    display: none;
+}
+.second_navbar ul li{
+    margin-left: 10px;
+}
+.coustomernavbar ul li a,.second_navbar ul li a{
+    color:black;
+}
+.model_1 ul li{
+    list-style: none;
+}
+.model_1 ul li a{
+    color: rgb(31, 31, 31);
+}
+.model_1 ul li a:hover{
+    color:orangered;
+}
+@media only screen and (max-width:1200px){
+    .carousel_1,.New_Arrivals{
+        margin-left :auto;
+        margin-right:auto;
+    } 
+    .hmcr8,.hmcr16{
+        display: none;
+    } 
+}
+@media only screen and (max-width:1093px){
+    .main{
+        display: none;
+    }
+    .second_main{
+        display:block;
+    }
+    
+}
+.cardimg1{
+    width: 900px;
+}
+.img1_discription{
+    margin-left: 250px;
+    margin-top: 400px;
+}
+.img2_discription{
+    margin-left: 250px;
+    margin-top: 380px;
+}
+.shopnow{
+    margin-left: 80px;
+}
+@media only screen and (max-width:995px){
+    .img1_discription{
+        margin-left: 150px;
+        margin-top: 250px;
+    }
+    .img2_discription{
+        margin-left: 150px;
+        margin-top: 250px;
+    }
+    .cardimg1{
+        width:auto;
+    }
+    .hmcr8,.hmcr7,.hmcr15,.hmcr16{
+        display: none;
+    }
+    .hmcr7,.hmcr14,.hmcr6{
+        display: none;
+    } 
+}
+@media only screen and (max-width:500px){
+    .img1_discription{
+        margin-left:auto;
+        margin-top:auto;
+    }
+    .img2_discription{
+        margin-left:auto;
+        margin-top:auto;
+    }
+    .cardimg1{
+        width:auto;
+    }
+    /* .hmcr6,.hmcr14,.hmcr7,.hmcr15{
+        display: none;
+    } */
+}
+.carousel_1,.New_Arrivals{
+    margin-left :80px;
+    margin-right:0;
+}  
+.New_Arrivals ul li{
+  list-style: none;
+  display: inline;
+  padding: 7px 15px 7px 15px;
+  border: 1px solid black;
+  border-radius: 37%;
+  /* margin-right: 10px; */
+}
+.New_Arrivals ul li a{
+    color: black;
+}
+.New_Arrivals ul{
+   margin-top: 40px;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    color:black;
+}
+.footer_icon a{
+    color: black;
+    margin: 20px;
+}

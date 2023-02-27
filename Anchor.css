@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    margin: 0 auto;
+    width:80%;
+}
+/* .card1,.card2,.card3{
+    float: left;
+    margin: 10px;
+    clear: both;
+} */
+.card1 h3,.card2 h3,.card3 h3{
+    padding: 20px 0px 20px 10px;
+}
+.container-fluid{
+    background-color: black;
+}
+.footer1 p,.footer2 b,.footer3 p{
+    color:whitesmoke;
+}
+.footer2 ul li{
+   list-style: none;
+   display: inline;
+   text-decoration: none;
+}
+.footer1,.footer2,.footer3{
+    margin-left: 50px;
+    margin-top:15px;
+}
